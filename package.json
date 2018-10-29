@@ -1,21 +1,18 @@
 {
   "name": "vk-observer",
   "version": "2.3.1",
-  "description": "VK music/video download",
+  "description": "VK music/video download (custom)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/glebcha/vk-observer.git"
+    "url": "https://github.com/neeraj-m/vk-observer.git"
   },
   "author": "Glebcha",
   "license": "MIT",
-  "homepage": "https://github.com/glebcha/vk-observer.git",
   "scripts": {
     "start": "NODE_ENV=production gulp && gulp watch",
     "start-dev": "NODE_ENV=development gulp && gulp watch"
   },
   "devDependencies": {
-    "gulp-sourcemaps": "^1.12.0",
-    "gulp-util": "^3.0.8",
     "babel": "^6.3.13",
     "babel-preset-es2015": "^6.24.1",
     "babelify": "^7.3.0",
@@ -37,7 +34,9 @@
     "gulp-rename": "^1.2.2",
     "gulp-rimraf": "^0.2.1",
     "gulp-size": "^2.1.0",
+    "gulp-sourcemaps": "^1.12.0",
     "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
     "jshint": "^2.9.5",
     "less-plugin-autoprefix": "^1.5.1",
     "vinyl-source-stream": "^1.1.0"

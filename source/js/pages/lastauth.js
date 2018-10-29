@@ -28,7 +28,7 @@ window.onload = () => {
 				)
 			},
 			error: (code, message) => {
-				console.log("Ошибка: " + message + " код: " + code);
+				console.log("Error: " + message + " code: " + code);
 			}
 		});
 	});

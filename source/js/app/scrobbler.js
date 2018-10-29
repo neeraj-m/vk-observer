@@ -23,11 +23,11 @@ class Scrobbler {
                     	{
                     		success: (data) => {
                         		statusIcon.className = 'scrobbled';
-                        		statusIcon.setAttribute('title', 'заскроблено');
+                        		statusIcon.setAttribute('title', 'scrobbled');
                         		//console.log("Заскробблен! " + songArtist + " " + songTitle);
                     		},
                     		error: (code, message) => {
-                        		console.log("Ошибка: " + message + " код: " + code);
+                        		console.log("Error: " + message + " code: " + code);
                     		}
                 		}
                 	);
@@ -69,11 +69,11 @@ class Scrobbler {
                     		{
                     			success: (data) => {
                         			likeIcon.className = 'liked';
-                        			likeIcon.setAttribute('title', 'добавлено в любимые');
-                        			//console.log("Добавлен в любимые! " + songArtist + " " + songTitle);
+                        			likeIcon.setAttribute('title', 'Add to favourites');
+                        			//console.log("Added to favorite! " + songArtist + " " + songTitle);
                     			},
                     			error: (code, message) => {
-                        			console.log("Ошибка: " + message + " код: " + code);
+                        			console.log("Error: " + message + " code: " + code);
                     			}
                 			}
                 		);
@@ -85,11 +85,11 @@ class Scrobbler {
                         	{
                         		success: (data) => {
                         	    	likeIcon.className = 'unliked';
-                            		likeIcon.setAttribute('title', 'удалено из любимых');
-                            		//console.log("Удален из любимых! " + songArtist + " " + songTitle);
+                            		likeIcon.setAttribute('title', 'Remove from favourites');
+                            		//console.log("Removed from favorites! " + songArtist + " " + songTitle);
                         		},
                         		error: (code, message) => {
-                            		console.log("Ошибка: " + message + " код: " + code);
+                        			console.log("Error: " + message + " code: " + code);
                         		}
                     		}
                     	);

@@ -282,5 +282,5 @@ export function defineVideoQuality(quality) {
             break;
     }
 
-    return `Загрузить - ${ definition }`;
+    return `Download - ${ definition }`;
 }

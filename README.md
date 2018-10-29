@@ -1,43 +1,39 @@
 # VK.Observer
-Простое расширение для загрузки музыки из социальной сети Вконтакте (vk.com).
-Добавляет кнопку загрузки для каждой музыкальной записи в любом месте (стена, плеер и т.д.).
-Никакой рекламы, никаких трекеров и шпионов, открытый исходный код.
+A simple extension for downloading music from the social network Vkontakte (vk.com).
+Adds a download button for each music record anywhere (wall, player, etc.).
+No ads, no trackers and spies, open source.
 
-Расширение было удалено из Chrome webstore ввиду жалоб ВК.
+The extension has been removed from the Chrome webstore due to VK complaints.
 
-Группа Вконтакте:
+Furiously welcome suggestions and code review.
 
-https://vk.com/vkobserverchrome
+`` `
+I will be glad if you borrow all or part of the code, you will come to success without becoming an asshole.
+`` `
 
-Неистово приветствуются предложения и code review.
+### In the current version:
 
-```
-Я буду рад, если позаимствовав весь код или его часть, ты придешь к успеху не став мудаком.
-```
+* uploading video with file name as in Vkontakte
 
-### В текущей версии:
+* definition of audio recordings deleted at the request of the copyright holder
 
-* загрузка видео с именем файла как в интерфейсе Вконтакте
+* download audio recordings by clicking on the download icon in any block and on any page
 
-* определение аудиозаписей, удаленных по просьбе правообладателя
+* adds a download button for each music record anywhere (wall, player, etc.)
 
-* загрузка аудиозаписей по клику на иконку загрузки в любом блоке и на любой странице
+* Download all audio recordings for each post by clicking on the button "Download All"
 
-* добавляет кнопку загрузки для каждой музыкальной записи в любом месте (стена, плеер и т.д.) 
+* display file size and bitrate on hover on audio
 
-* загрузка всех аудиозаписей для каждого поста по нажатию на кнопку "Загрузить все"
+* adds buttons for downloading video with quality indication (only for videos hosted on Vkontakte servers, does not work with third-party video services like YouTube and others)
 
-* отображение размера файла и битрейта по наведению на аудиозапись 
+* supports scrobbling and adding to your favorite tracks for Last.fm
 
-* добавляет кнопки для загрузки видео с индикацией качества (только для видео, размещенного на серверах Вконтакте, не работает со сторонними видео-сервисами как YouTube и прочими)
+### In the plans:
 
-* поддерживается скробблинг и добавление в любимые треки для Last.fm
+* more Last.fm
 
-### В планах:
-
-* еще больше Last.fm 
-
-### Скриншоты:
+### Screenshots:
 ![Screenshot0](http://aviaps.ru/images/vkobserver-last.png)
 * * *
 ![Screenshot1](http://i.imgur.com/vY4Kwrg.png)

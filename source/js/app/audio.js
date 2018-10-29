@@ -84,7 +84,7 @@ class Audio extends vkObserver {
 				if (isNaN(bitrate.kbps) === true) {
 					text = '×';
 				} else {
-					text = `${ bitrate.kbps } кбит/с<span>${ fileSize } МБ</span>`;
+					text = `${ bitrate.kbps } kbps<span>${ fileSize } МБ</span>`;
 				}
 				let b = document.createElement('span');
 
@@ -277,9 +277,9 @@ class Audio extends vkObserver {
 			if (post !== undefined && post !== null) {
 				if (wallText.querySelectorAll('.audio_row').length > 1) {
 					const btn = document.createElement('a');
-					const btnHTML = `Загрузить все
+					const btnHTML = `Download All
 						<span class="download-tooltip">
-							Нажмите, чтобы загрузить все аудиозаписи
+							click to download all
 						</span>
 					`
 
